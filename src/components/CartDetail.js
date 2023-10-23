@@ -132,12 +132,12 @@ const CartDetail = () => {
                             </td>
                             <td>
                               <div className="product-img">
-                                <img src={data.imgdata} alt="" />
+                                <img src={data.image} alt="" />
                               </div>
                             </td>
                             <td>
                               <div className="product-name">
-                                <p>{data.dish}</p>
+                                <p>{data.title}</p>
                               </div>
                             </td>
                             <td>{data.price}</td>
